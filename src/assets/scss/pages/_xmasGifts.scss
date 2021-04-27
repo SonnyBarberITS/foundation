@@ -1,0 +1,104 @@
+#xmasGifts{
+
+    h2, h2 span{
+        text-align: center;
+        @include futuraPTDemi;
+        font-size: 3rem;
+        text-transform: uppercase;
+        span{
+            color: #00adef;
+        }
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            font-size: 2rem;
+        }
+    }
+
+    h3{
+        text-align: center;
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            font-size: 2rem;
+        }
+    }
+
+
+    .xmas__nav{
+        margin: 2rem auto;
+        a{
+            padding: 5px;
+            @include flexColumnCenter;
+            span{
+                background-color: #f7f7f7;
+                color: #E30713;
+                font-size: 1rem;
+                padding: 5px;
+                text-align: center;
+                min-height: 50px;
+                @include flexColumnCenter;
+                width: 100%;
+            }
+
+            &:hover{
+                -webkit-box-shadow: 7px 7px 38px -17px rgba(102,102,102,1);
+                -moz-box-shadow: 7px 7px 38px -17px rgba(102,102,102,1);
+                box-shadow: 7px 7px 38px -17px rgba(102,102,102,1);
+                transition: box-shadow .2s;
+            }
+        }
+
+        img{
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                max-width: 75%;
+            }
+        }
+    }
+
+    #halfPriceRewards{
+        margin: 5rem auto;
+
+        .large-3{
+            border: 1px solid #eaeaea;
+            margin: 0 1%;
+            max-width: 23%;
+
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                max-width: 48%;
+            }
+        }
+
+        h2{
+
+        }
+
+        h3{
+            color: #00adef;
+            font-size: 3rem;
+        
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                font-size: 2rem;
+            }
+        
+        }
+    }
+
+
+    .xmas__button{
+        margin: 1rem auto 3rem auto;
+        background-color: #E30713;
+        @include futuraPTHeavy;
+        text-transform: uppercase;
+        font-size: 3rem;
+        border-radius: 20px;
+
+        &:hover{
+            -webkit-box-shadow: 1px 3px 12px 0px #666666;
+                -moz-box-shadow: 1px 3px 12px 0px #666666;
+                box-shadow: 1px 3px 12px 0px #666666;
+                transition: box-shadow .2s;
+        }
+
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            font-size: 1.5rem;
+        }
+    }
+
+}

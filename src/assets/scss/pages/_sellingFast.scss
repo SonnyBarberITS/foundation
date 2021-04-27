@@ -1,0 +1,24 @@
+#sellingFast{
+  background-color: #000;
+
+
+  .banner{
+      margin-bottom: 3rem;
+      @media (min-width: $mobileSmall) and (max-width: $mobile) {
+          margin-bottom: 0;
+        }
+  }
+
+  .sellingFast__button{
+      background-color: #F5891C;
+      @include futuraPTHeavy;
+      font-size: 2rem;
+      text-transform: uppercase;
+      border-radius: 10px;
+      margin: 2rem 0;
+
+      @media (min-width: $mobileSmall) and (max-width: $mobile) {
+        font-size: 1rem;
+      }
+  }
+}

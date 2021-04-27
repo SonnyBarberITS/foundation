@@ -1,0 +1,70 @@
+// ***********************
+// FLEX GRID MIXINS
+// ***********************
+@mixin flexCenter{display: flex; justify-content: center; align-items: center;}
+@mixin flexColumnCenter{display: flex; flex-direction: column; justify-content: center; align-items: center;}
+@mixin flexColumn{display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start;}
+@mixin flexColumnSpaceBetween{display: flex; flex-direction: column; justify-content: space-between;}
+@mixin flexColumnSpaceEvenly{display: flex; flex-direction: column; justify-content: space-evenly;}
+@mixin flexColumnStartCenter{display: flex; flex-direction: column; justify-content: flex-start; align-items: center;}
+@mixin flexColumnStart{display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start;}
+@mixin flexColumnEnd{display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-end;}
+
+@mixin flexStart{display: flex; justify-content: flex-start; align-items: flex-start;}
+@mixin flexEnd{display: flex; justify-content: flex-end; align-items: flex-end;}
+@mixin flexWrap{display: flex; justify-content: flex-start; align-items: center; flex-wrap: wrap;}
+
+
+// ***********************
+// FONT MIXINS
+// ***********************
+@mixin anton{font-family: $anton; font-style: normal; font-weight: 400;}
+
+@mixin eurostileBold{font-family: $eurostile; font-style:normal; font-weight: 800;}
+@mixin eurostileHeavy{font-family: $eurostile; font-style:normal; font-weight: 900;}
+
+
+@mixin futuraPTLight{font-family: $futuraPT; font-style: normal; font-weight: 300;}
+@mixin futuraPTBook{font-family: $futuraPT; font-style: normal; font-weight: 400;}
+@mixin futuraPTMedium{font-family: $futuraPT; font-style: normal; font-weight: 500;}
+@mixin futuraPTDemi{font-family: $futuraPT; font-style: normal; font-weight: 600;}
+@mixin futuraPTHeavy{font-family: $futuraPT; font-style: normal; font-weight: 700;}
+@mixin futuraPTExtraBold{font-family: $futuraPT; font-style: normal; font-weight: 800;}
+
+@mixin futuraPTCondensedMed{font-family: $futuraPTCondensed; font-style: normal; font-weight: 500;}
+@mixin futuraPTCondensedBold{font-family: $futuraPTCondensed; font-style: normal; font-weight: 700;}
+@mixin futuraPTCondensedExtraBold{font-family: $futuraPTCondensed; font-style: normal; font-weight: 800;}
+
+@mixin montserratMedium{font-family: $montserrat; font-style: normal; font-weight: 600;} 
+@mixin montserratDemi{font-family: $montserrat; font-style: normal; font-weight: 700;}
+@mixin montserratHeavy{font-family: $montserrat; font-style: normal; font-weight: 800;} 
+
+@mixin openSansLight{font-family: $openSans; font-style: normal; font-weight: 300;}
+@mixin openSansRegular{font-family: $openSans; font-style: normal; font-weight: 400;}
+@mixin openSansSemiBold{font-family: $openSans; font-style: normal; font-weight: 600;}
+@mixin openSansBold{font-family: $openSans; font-style: normal; font-weight: 700;}
+@mixin openSansExtraBold{font-family: $openSans; font-style: normal; font-weight: 800;}
+
+@mixin oswaldLight{font-family: $oswald; font-style: normal; font-weight: 300;}
+@mixin oswaldRegular{font-family: $oswald; font-style: normal; font-weight: 400;}
+@mixin oswaldMedium{font-family: $oswald; font-style: normal; font-weight: 500;}
+@mixin oswaldSemiBold{font-family: $oswald; font-style: normal; font-weight: 600;}
+@mixin oswaldBold{font-family: $oswald; font-style: normal; font-weight: 700;}
+
+@mixin robotoSemiBold{font-family: $roboto; font-style: normal; font-weight: 600;}
+
+@mixin latoRegular{font-family: $lato; font-style: normal; font-weight: 400;}
+@mixin latoDemi{font-family: $lato; font-style: normal; font-weight: 600;}
+@mixin latoBold{font-family: $lato; font-style: normal; font-weight: 900;}
+
+@mixin terminaDemi{font-family: $termina; font-style: normal; font-weight: 500;}
+@mixin terminaDemiItalic{font-family: $termina; font-style: italic; font-weight: 500;}
+@mixin terminaExtraBold{font-family: $termina; font-style: normal; font-weight: 900;}
+@mixin terminaExtraBoldItalic{font-family: $termina; font-style: italic; font-weight: 900;}
+
+@mixin boschBlack {font-family: $boschBlack;}
+@mixin boschBold {font-family: $boschBold;}
+@mixin boschLight {font-family: $boschLight;}
+@mixin boschMedium {font-family: $boschMedium;}
+@mixin MinionProRegular {font-family: $MinionProRegular;}
+

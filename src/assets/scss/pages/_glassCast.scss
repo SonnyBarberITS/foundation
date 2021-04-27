@@ -1,0 +1,107 @@
+// variables
+$glassCast: #0080BD;
+
+
+#glasscast{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(https://its-london.s3-eu-west-1.amazonaws.com/themes/GLASSCAST/wood-effect-background.jpg) repeat;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+
+    h1, h2, h3{
+        color: $glassCast;
+        text-transform: uppercase;
+        @include openSansBold;
+    }
+
+    h4{
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    p{
+        font-size: 16px;
+        color: #4c4c4c;
+    }
+
+    span{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .button{
+        background-color: $glassCast;
+        color: #fff;
+    }
+
+
+    .glasscast-intro{
+        padding: 50px 0;
+
+        h2{
+            width: 100%;
+        }
+    }
+
+    
+
+    .glasscast-resins{
+        .callout{
+            border-color: #0080bd38;
+            border-radius: 5px;
+        }
+
+        h4{
+            
+        }
+        h5{
+            color: $glassCast;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .glasscast-projects{
+            margin: 10px 0;
+        }
+    }
+
+    .glasscast-shop-resins{
+        margin: 50px 0;
+
+        h4{
+            font-weight: 600;
+            text-transform: uppercase;
+            
+        }
+    }
+
+    .glasscast-video-main{
+        .glasscast-video-main-item{
+            display: none;
+        }
+    }
+
+    .glasscast-video-playlist{
+        .glasscast-video-item{
+            .glasscast-video-time{
+                margin-bottom: 20px;
+                span{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .glasscast-gallery{
+        margin: 40px 0;
+            .nGY2GThumbnail{
+                background: #ffffff;
+            }
+    }
+
+    .glasscast-tools{
+        margin: 40px 0;
+    }
+
+}

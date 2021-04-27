@@ -1,0 +1,9 @@
+.df-main{
+    .df-card__content{
+        #dooSearchTitle{
+            h3{
+                @include futuraPTBook;
+            }
+        }
+    }
+}

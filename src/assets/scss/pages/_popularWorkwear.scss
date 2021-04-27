@@ -1,0 +1,36 @@
+#popular__workwear{
+    .title__area{
+        width: 100%;
+        max-width: 1200px;
+        @include flexColumnCenter;
+        margin: 20px auto;
+
+        h1{
+            @include oswaldBold;
+            text-transform: uppercase;
+        }
+
+        p{
+            font-size: 16px;
+            text-align: center;
+        }
+
+    }
+
+    .cell{
+        margin-bottom: 20px;
+
+        h2{
+            background-color: #fee402;
+            margin: 0;
+            padding: 20px 5px;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 24px;
+            font-weight: 700;
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                font-size: 16px;
+            }
+        }
+    }
+}

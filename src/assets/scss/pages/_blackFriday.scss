@@ -1,0 +1,372 @@
+#blackFridayTop{
+    background-color: #000;
+
+    h1,h2{
+        text-align: center;
+        @include oswaldBold;
+        text-align: center;
+        color: #000;
+        text-transform: uppercase;
+        width: 100%;
+
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            font-size: 1.5rem;
+        }
+    }
+
+    .hero__banners{
+        @include flexColumnCenter;
+    }
+
+    .callout{
+        p{
+            text-align: center;
+            @include oswaldBold;
+            text-transform: uppercase;
+            font-size: 1rem;
+        }
+    }
+
+
+    .blackFriday__menu{
+        padding: 1rem 0;
+        background-color: #fff;
+
+        li{
+
+            &:first-child{
+                a{
+                    color: red;
+                }
+            }
+
+            a{
+                color: #000;
+                @include montserratDemi;
+                font-size: .85rem;
+
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .bf-seo-text{
+        color: $white;
+        text-align: center;
+        display: block;
+        float: none;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+}
+
+#blackFriday{
+    padding: 3rem 0;
+    background: url('https://its-london.s3-eu-west-1.amazonaws.com/themes/BLACKFRIDAY/background.jpg');
+
+
+    h1, h2{
+        text-align: center;
+        @include oswaldBold;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        width: 100%;
+        font-size: 3.5rem;
+
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            font-size: 1.75rem;
+        }
+    }
+
+    .br__end--button{
+        @include oswaldBold;
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            font-size: 1.75rem;
+        }  
+    }
+
+    .button__container{
+        width: 100%;
+        @include flexColumnCenter;
+
+        .blackFriday__button{
+            margin: 1rem auto 3rem auto;
+            background-color: #fff;
+            @include oswaldBold;
+            color: #E10811;
+            text-transform: uppercase;
+            font-size: 3rem;
+            border-radius: 10px;
+
+            &:hover{
+                text-decoration: underline;
+            }
+
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    
+
+    .blackFriday__banner{
+        margin: 0 0 3rem 0;
+
+        img{
+            margin: 10px 0;
+        }
+    }
+
+    .new__deals--title{
+        margin-top: 2rem;
+        h2, span{
+            @include oswaldBold;
+            font-size: 5rem;
+            font-style: italic;
+
+            span{
+                color: $its-yellow;
+            }
+
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                font-size: 2rem;
+            }
+        }
+    }
+
+
+    #FlashDealsTemplate{
+        display: flex !important;
+
+        .FlashDealsWrapper{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+
+            .FDItemContainer{
+                margin-bottom: 10px;
+                justify-content: space-between;
+                min-height: 500px;
+                max-height: 500px;
+
+                @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                    width: 49%;
+                    min-height: 500px;
+                    max-height: 500px;
+                }
+
+                .FDExVat{
+                    font-size: 1.5rem;
+                }
+
+                .FD__button--container{
+                    @include flexColumnCenter;
+                    width: 100%;
+
+                    .PR_Item_MoreInfo_CC{
+                        width: 100%;
+
+                        a{
+                            background-color: $blue;
+                            text-transform: uppercase;
+                            @include futuraPTBook;
+                            font-weight: 600;
+                        }
+                    }
+
+                    .button{
+                        width: 100%;
+                        margin: 0;
+                        border-radius: 5px;
+                        margin-bottom: 5px;
+                        @include futuraPTBook;
+                            font-weight: 600;
+
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+
+                    .pr__btn--buy{
+                        background-color: $green;
+                    }
+
+                    .pr__btn--pre{
+                        background-color: $orange;
+                    }
+
+                    .pr__btn--info{
+                        background-color: $green;
+                        color: #fff;
+                    }
+
+                }    
+
+            }
+
+            .FDItemContainerNoTimer{
+                min-height: 450px;
+                max-height: 450px;
+                justify-content: space-between;
+            }
+
+
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                justify-content: space-between;
+            }
+        }
+    }
+
+
+    .blackFriday__categories--bottom{
+        .callout{
+            text-align: center;
+            @include futuraPTDemi;
+            font-size: 1rem;
+            text-transform: uppercase;
+            border: 3px solid #000;
+            margin-bottom: 5px;
+            background-color: #000;
+            color:#fff;
+
+            img{
+                margin-bottom: 10px;
+            }
+
+            &:hover{
+                text-decoration: underline;
+            }
+
+        }
+
+        .callout2{
+            background-color:#fff;
+            color: #000;
+            margin-bottom: 1px;
+        }
+    }
+
+
+    #sale__graphic-items{
+        .timer__image{
+            @include flexColumnCenter;
+            img{
+                display: block;
+                width: 50%;
+                height: auto;
+                @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                   width: 100%;
+                   height: auto !important;
+                }
+            }
+        }
+        
+        .product__item{
+            >div{
+                margin: 1rem 0;
+            }
+        }
+    }
+
+
+}
+
+
+#blackFriday.homeBlackFriday{
+    padding: 0 0 2rem 0;
+    // background-image: linear-gradient(140deg, #000000 0%, #292929 50%, #000000 75%);
+
+    .row{
+        margin-bottom: 3rem;
+    }
+
+    .desktopslider{
+        margin-bottom: 0;
+    }
+
+    .thumbnail{
+        border: 5.5px solid #0000;
+        margin-bottom: 0;
+    }
+
+    .blackFriday__countdown{
+        @include flexColumnCenter;
+        margin: 2rem auto;
+        h2{
+            font-size: 4rem;
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                font-size: 2.5rem;
+            }
+        }
+    }
+
+    .blackFriday__brands{
+        margin: 0 auto 3rem auto;
+    }
+
+    .blackFriday__highlights{
+        margin: 3rem auto 0 auto;
+        .blackFriday__highlights--slider{
+            .slick-arrow.slick-prev{
+                background: url('https://its-london.s3.amazonaws.com/css/arrow-left-white.png');
+                background-size: cover;
+                top: 40%;
+            }
+            .slick-arrow.slick-next{
+                background: url('https://its-london.s3.amazonaws.com/css/arrow-right-white.png');
+                background-size: cover;
+                top: 40%;
+            }
+            img{width: 100%;}
+        }
+    }
+
+    .home__promo--1{
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            display: none;
+          }
+    }
+
+    .home__promo--mobile{
+        display: none;
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            display: block;
+          }
+    }
+
+    .home__blackFriday--button{
+
+    }
+
+
+    .blackFriday__menu{
+        padding: 1rem 0;
+        background-color: #fff;
+
+        li{
+
+            &:first-child{
+                a{
+                    color: red;
+                }
+            }
+
+            a{
+                color: #000;
+                @include montserratDemi;
+                font-size: .85rem;
+
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+}

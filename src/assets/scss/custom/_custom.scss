@@ -1,0 +1,59 @@
+ul{
+    margin-left: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.COLUMNNavigation .PLUMBING .PLUMBING>a{
+    width: 63px;
+}
+
+.COLUMNNavigation .IRONGMONGERY .IRONGMONGERY a{
+    width: 85px;
+}
+
+.colNav .COLUMNNavigation li.CPT>.CPT>a{
+    width: 80px;
+}
+
+.LOGO img{
+    width: auto !important;
+}
+
+.COLUMNNavigation .level1>.tab9{
+    width: 65px;
+}
+
+.COLUMNNavigation {
+    .level1 {
+        a{
+           margin: 0 2.5px; 
+        }
+    }
+}
+
+.COLUMNNavigation {
+    .level2{
+        a{
+            min-width: 180px;
+            max-width: 180px;
+        }
+    }
+}
+
+.MoreHier .HeaderNavigation li a, .MoreHier .HeaderNavigation li.level2 a{
+    margin-top: 5px;
+    height: auto;
+}
+
+.Search{
+    input{
+        width: 100%;
+        height: 43px;
+    }
+} 
+
+.LOGO{
+    img{
+        margin: 0;
+    }
+}

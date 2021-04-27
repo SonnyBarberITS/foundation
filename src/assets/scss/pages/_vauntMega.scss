@@ -1,0 +1,65 @@
+#vauntMega{
+    background-color: #3C3C3A;
+    h2, h3, p{
+        color: #fff;
+        text-align: center;
+    }
+
+    h2, h3{
+        text-transform: uppercase;
+        @include futuraPTCondensedBold;
+    }
+
+    h2{
+        font-size: 50px;
+    }
+
+    h3{
+        @include futuraPTHeavy;
+        font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300))) !important;
+    }
+
+    p{
+        @include futuraPTHeavy;
+        font-size: 25px;
+    }
+
+    .button.large{
+        display: flex;
+        margin: 0 auto;
+        background: #EC6D06;
+        padding: 10px 15px;
+        color: #000000;
+        border: 1px solid #EC6D06;
+        height: auto;
+        font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300))) !important;
+        font-weight: 600;
+        justify-content: center;
+        align-items: center;
+        min-width: 130px;
+        max-width: 130px;
+
+        &:hover{
+            color: #ffffff;
+            background: #000000;
+            border: 1px solid #000000;
+        }
+    }
+
+
+    .category-container, #brand-pr{
+        width: 100%;
+        padding: 0 1rem;
+        margin: 0 auto;
+
+        .cell{
+            margin-bottom: 30px;
+        }
+
+
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            padding: 0;
+        }
+    }
+
+}

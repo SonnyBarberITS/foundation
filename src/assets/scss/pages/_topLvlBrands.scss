@@ -1,0 +1,617 @@
+#top_lvl_brand {
+    #top_lvl_brand_header {
+        text-align: center;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    #top_lvl_brand_content {
+       padding-top: 3rem;
+       padding-bottom: 3rem;
+
+        .cell {
+            margin-bottom: 2rem;
+
+
+            h5 {
+                margin: 1rem 0;
+                text-align: center;
+                font-size: 1.2rem;
+                font-weight: 700;
+                text-transform: uppercase;
+                
+                @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                    min-height: 44px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 1rem;
+                }
+            }
+
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+
+        .brand_cmr_top {
+            margin-bottom: 1rem;
+
+            p {
+                text-align: center;
+                @include futuraPTBook;
+                font-size: 20px;
+                margin-bottom: 2rem;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+#top_lvl_brand.top_lvl_brand_MAKITA{
+    background-color: #27757f;
+
+    h1,
+    h2,
+    h3,
+    h5,
+    h6,
+    p,
+    a {
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    a{
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    #top_lvl_brand_content {
+        .cell-item {
+            background-color: #ffffff;
+
+            h5 {
+                color: #27757f;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 700;
+            }
+        }
+    }
+
+    #brand-pr-head{
+        h2{
+            color: #fff;
+            font-weight: 800;
+        }
+    }
+
+}
+
+
+#top_lvl_brand.top_lvl_brand_DEWALT{
+    background-color: #000;
+
+    h1,
+    h2,
+    h3,
+    h5,
+    h6,
+    p,
+    a {
+        color: #fff;
+       @include oswaldBold;
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    a{
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    #top_lvl_brand_content {
+        .cell-item {
+            background-color: #FEBD18;
+
+            h5 {
+                color: #000;
+               @include oswaldBold;
+            }
+        }
+    }
+
+}
+
+
+#top_lvl_brand.top_lvl_brand_MILWAUKEE{
+    background-color: #a30925;
+
+    #top_lvl_brand_header {
+        text-align: center;
+    }
+
+
+    
+
+
+    #top_lvl_brand_content {
+        .cell-item {
+            background-color: #ffffff;
+
+            h5 {
+                color: #db011c;
+                @include eurostileBold;
+            }
+        }
+
+        .brand_cmr_top {
+            background-color: #a30925 !important;
+
+            p {
+                color: #fff;
+                @include eurostileBold;
+                font-size: 35px;
+
+                @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+#top_lvl_brand.top_lvl_brand_BOSCH{
+    background-color: #023A69;
+
+    h1,
+    h2,
+    h3,
+    h5,
+    h6,
+    p,
+    a {
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    a{
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    #top_lvl_brand_content {
+        .cell-item {
+            background-color: #ffffff;
+
+            h5 {
+                color: #023A69;
+                font-family: 'Roboto', sans-serif;
+            }
+        }
+    }
+
+}
+
+.top_lvl_brand_EINHELL{
+    background-color: #d50c1f;
+
+    h1,
+    h2,
+    h3,
+    h5,
+    h6,
+    p,
+    a {
+        color: #fff;
+        @include oswaldBold;
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    a{
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+ 
+    #top_lvl_brand_content {
+        .cell-item {
+            background-color: #ffffff;
+
+            h5 {
+                color: #d50c1f;
+                @include oswaldBold;
+            }
+        }
+    }
+
+}
+
+.top_lvl_brand_FESTOOL{
+    background-color: #191E2B;
+
+    h1,
+    h2,
+    h3,
+    h5,
+    h6,
+    p,
+    a {
+        color: #fff;
+        font-family: Verdana,sans-serif;
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #46B93A;
+    }
+
+    a{
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+ 
+    #top_lvl_brand_content {
+        .cell-item {
+            background-color: #ffffff;
+
+            h5 {
+                color: #191E2B;
+                font-family: Verdana,sans-serif;
+            }
+        }
+    }
+
+}
+
+.top_lvl_brand_HIKOKI{
+    background-color: #006d50;
+
+    h1,
+    h2,
+    h3,
+    h5,
+    h6,
+    p,
+    a {
+        color: #fff;
+        font-family: 'Noto Sans', sans-serif;
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    a{
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+ 
+    #top_lvl_brand_content {
+        .cell-item {
+            background-color: #ffffff;
+
+            h5 {
+                color: #006d50;
+                font-family: 'Noto Sans', sans-serif;
+            }
+        }
+    }
+
+}
+
+.top_lvl_brand_METABO{
+    background-color: #224b44;
+
+    h1,
+    h2,
+    h3,
+    h5,
+    h6,
+    p,
+    a {
+        color: #fff;
+        font-family: Arial,sans-serif;
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    a{
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+ 
+    #top_lvl_brand_content {
+        .cell-item {
+            background-color: #ffffff;
+
+            h5 {
+                color: #224b44;
+                font-family: Arial,sans-serif;
+            }
+        }
+    }
+
+}
+
+.top_lvl_brand_TREND{
+    background-color: #252525;
+
+    h1,
+    h2,
+    h3,
+    h5,
+    h6,
+    p,
+    a {
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    a{
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+ 
+    #top_lvl_brand_content {
+        .cell-item {
+            background-color: #ffffff;
+
+            h5 {
+                color: #252525;
+                font-family: 'Open Sans', sans-serif;
+            }
+        }
+    }
+
+}
+
+
+.top_lvl_brand_WORX{
+    background-color: #e85900;
+
+    h1,
+    h2,
+    h3,
+    h5,
+    h6,
+    p,
+    a {
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    a{
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+ 
+    #top_lvl_brand_content {
+        .cell-item {
+            background-color: #ffffff;
+
+            h5 {
+                color: #e85900;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 800 !important;
+            }
+        }
+    }
+
+}
+
+
+// Product Region
+#brand-pr-head{
+    h2{
+        text-align: center;
+        font-weight: 800;
+        text-transform: uppercase;
+        width: 100%;
+    }
+}
+
+#brand-pr-head.brand-pr-head-makita{
+    h2{
+        color: #008396;
+    }
+}
+
+#brand-pr-head.brand-pr-head-dewalt{
+    h2{
+        color: #FEBD18;
+    }
+}
+
+#brand-pr-head.brand-pr-head-milwaukee{
+    h2{
+        color: #ffffff;
+    }
+}
+
+#brand-pr-head.brand-pr-head-einhell{
+    h2{
+        color: #ffffff;
+    }
+}
+
+
+#brand-pr{
+
+
+    .brand-pr-cell{
+        background-color: #fff;
+        position: relative;
+        border: 1px solid #eaeaea;
+        padding: 5px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .brand-pr-overlay{
+            position: absolute;
+            left: 5px;
+            top: 5px;
+            width: 40px;
+            height: 40px;
+        }
+
+        .brand-pr-saving{
+            position: absolute;
+            right: 5px;
+            top: 5px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: #D21112;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 13px;
+            color: #fff;
+        }
+        .brand-pr-desc-cc{
+            min-height: 262px;
+            text-align: center;
+
+            .brand-pr-freebie-cc{
+                text-align: center;
+                .brand-pr-freebie-item{
+                    color: #db011c;
+                    font-weight: 600;
+                }
+            }
+
+            #brand-pr-desc{
+                text-align: center;
+            }
+        }
+        
+        
+        
+        .brand-pr-price-cc{
+            @include flexColumnCenter;
+            min-height: 60px;
+
+            .brand-pr-was{text-decoration: line-through;}
+            .brand-pr-ex{font-size: 20px; font-weight: 600;}
+            .brand-pr-inc{}
+        }
+
+
+        .brand-pr-button-cc{
+            .button{
+                margin-bottom: 0;
+                padding: .5em 1em;
+                border-radius: 2px;
+                transition: box-shadow 0.3s ease-in-out;
+
+                &:hover{
+                    box-shadow: 0 1px 2px 1px rgba(0,0,0,0.15);
+                }
+            }
+
+            .pr-moreInfo-btn{
+                margin: 2.5px 0;
+                background-color: #0081B9;
+            }
+
+            .pr-options-btn, .pr-shop-btn{
+                background-color: #1ca902;
+            }
+
+            .pr-pre-btn{
+                background-color: orange;
+            }
+        }
+    }
+
+    #brand-pr-desc{
+        color: #000 !important;
+        font-size: 15px;
+    }
+}

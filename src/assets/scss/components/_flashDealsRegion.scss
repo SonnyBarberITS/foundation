@@ -1,0 +1,142 @@
+#flashDeals{
+    margin: 20px 0;
+
+    .flashDeals-col{
+        position: relative;
+        background-color: #ffffff;
+        border-radius: 5px;
+        @include flexColumnSpaceBetween;
+        margin-bottom: 20px;
+
+        .flashDeals-saving{
+            font-family: Oswald,sans-serif;
+            font-style: italic;
+            font-weight: 600;
+            min-height: 40px;
+            background-color: #ed1b24;
+            width: 100%;
+            margin: 0 auto 10px auto;
+            padding: 10px 0;
+            font-size: 16px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .flashDeals-image{
+            text-align: center;
+            max-width: 170px;
+            margin: 0 auto;
+            position: relative;
+
+            .flashDeals__overlay{
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 60px;
+            }
+        }
+
+        .flashDeals-progress{
+            width: 100%;
+            background-color: #ddd;
+            border-radius: 10px;
+            margin-bottom: 5px;
+            .flashDeals-progressBar{
+                width: 30%;
+                height: 10px;
+                background-color: #fbc731;
+                text-align: center;
+                line-height: 10px;
+                color: #fff;
+                border-radius: 10px;
+            }
+        }
+
+        .flashDeals-claimed{
+            margin: 0 5px 10px 5px;
+            align-items: center;
+
+            .flashDeals-main{display: none;}
+            .flashDeals-startStock{display: none;}
+            .flashDeals-claimedMsg{
+                color: red;
+                @include oswaldSemiBold;
+                font-size: 14px;
+            }
+
+            .flashDeals-countdown{
+                color: #8e8e8e;
+            }
+        }
+
+        .flashDeals-title{
+            margin: 0 5px 10px 5px;
+            a{
+                font-size: 14px;
+                font-weight: 600;
+
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .flashDeals-pricing{
+            margin: 0 5px 10px 5px;
+            align-items: flex-start;
+
+            .flashDeals-pricing-cell{
+                @include flexColumn;
+                min-height: 56px;
+
+                .flashDeals-was{
+                    @include oswaldRegular;
+                    text-decoration: line-through;
+                }
+                .flashDeals-ex{
+                    @include oswaldBold;
+                    font-size: 22px;
+                }
+                .flashDeals-inc{
+                    @include oswaldRegular;
+                }
+            }
+        }
+
+        .flashDeals-shop{
+            text-align: center;
+            .flashdeals-shopBtn{
+                background-color: #1ca902;
+                @include oswaldSemiBold;
+                color: #fff;
+                @include flexCenter;
+                font-size: 18px;
+                padding: 5px 10px;
+                margin: 5px;
+                border-radius: 3px;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .flashDeals-soldOut{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #bdbdbdd9;
+            @include flexCenter;
+            border-radius: 5px;
+
+            span{
+                @include oswaldBold;
+                font-size: 40px;
+                color: red;
+                transform: rotate(325deg);
+            }
+        }
+
+    }
+}

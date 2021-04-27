@@ -1,0 +1,275 @@
+#newCat{
+
+
+
+    h1, h2, h3{
+        @include futuraPTExtraBold;
+        text-transform: uppercase;
+    }
+
+    .slick-prev{
+        left: -40px;
+
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            left: 0;
+          }
+    }
+
+    .slick-next{
+        right: -40px;
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            right: 0;
+          }
+    }
+
+    .slick-arrow{
+        top: 45%;
+    }
+
+    .newCatSteps{
+        background-color: #fdec1a; 
+        padding: 2rem 0;
+
+        h2{
+            color: #e62623;
+        }
+
+        h5{
+            margin: 1rem 0;
+        }
+
+        i{
+            font-size: 3rem;
+        }
+
+        .button{
+            border-radius: 30px;
+            text-transform: uppercase;
+            background-color: #e62623;
+            color: #fff;
+            @include futuraPTExtraBold;
+            font-size: 1.2rem;
+        }
+    }
+
+    .newCatHighlights{
+        background-color: #ededed;
+        padding: 2rem 0;
+
+        h2{
+            color: #fe0a30;
+        }
+
+        
+
+        .shop-all-button{
+            background-color: #1ca902;
+            color: #fff;
+            border-radius: 5px;
+            @include futuraPTExtraBold;
+            text-transform: uppercase;
+            font-size: 2rem;
+
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                font-size: 1.5rem;
+              }
+        }
+    }
+
+    .newCatSlider{
+        img{
+            margin: 0 auto;
+        }
+
+        margin-bottom: 2rem;
+    }
+
+
+    .newCatCategory{
+        padding-bottom: 2rem;
+
+        .newCatRow{
+            margin: 1rem 0;
+        }
+
+        .shop-all-button{
+            padding: 1rem;
+            @include futuraPTExtraBold;
+            border-radius: 5px;
+            min-width: 420px;
+            max-width: 420px;
+            margin: 0 auto;
+            text-transform: uppercase;
+            font-size: 2rem;
+
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                min-width: 100%;
+                max-width: 100%;
+              }
+        }
+    }
+
+    .newCatPT{
+        background-color: #000;
+
+        h2{
+            color: #fff;
+        }
+
+        .shop-all-button{
+            background-color: #000;
+            color: #fde800;
+            border: 4px solid #fff;
+        }
+
+        .slick-arrow.slick-prev{
+            background: url(https://its-london.s3.amazonaws.com/css/arrow-left-white.png) no-repeat;
+            background-size: 100%;
+        }
+        .slick-arrow.slick-next{
+            background: url(https://its-london.s3.amazonaws.com/css/arrow-right-white.png) no-repeat;
+            background-size: 100%;
+        }
+
+    }
+
+
+    .newCatKB{
+        padding: 0;
+    }
+
+    .newCatHT{
+        background-color: #00984D;
+        .shop-all-button{background: transparent;
+            color: #fff;
+            border: 4px solid #fff;
+        }
+    }
+
+    .newCatPTA{
+        background-color: #7B2A86;
+        .shop-all-button{background: transparent;
+            color: #fff;
+            border: 4px solid #fff;
+        }
+    }
+
+    .newCatDIY{
+        background-color:#6DD0F7;
+        .shop-all-button{    background-color: #fde800;
+            color: #000;
+            border: 4px solid #fde800;
+        }
+    }
+
+    .newCatGarden{
+        background-color:#1e6114;
+        .shop-all-button{    background-color: #fff;
+            color: #1e6114;
+            border: 4px solid #fff;
+        }
+    }
+
+    .newCatDecorating{
+        background-color:#a3d1e8;
+        .shop-all-button{    background-color: #fff;
+            color: #a3d1e8;
+            border: 4px solid #fff;
+        }
+    }
+
+    .newCatWorkwear{
+        background-color:#5FB6D9;
+        .shop-all-button{    background-color: #fff;
+            color: #5FB6D9;
+            border: 4px solid #fff;
+        }
+    }
+
+    .newCatLighting{
+        background-color:#323332;
+        .shop-all-button{    background-color: transparent;
+            color: #FDCA06;
+            border: 4px solid #fff;
+        }
+    }
+
+    .newCatPaypal{
+        padding: 2rem 0;
+    }
+
+    .newCatOutNow{
+        background-color: #FDE800;
+        padding: 2rem 0; 
+
+        .button{
+            background-color: #FE0A30;
+            color: #fff;
+            border-radius: 20px;
+            @include futuraPTExtraBold;
+            text-transform: uppercase;
+            font-size: 1.75rem;
+            
+        }
+    }
+
+
+    .newCatOnline{
+        background-color: #FE0A30;
+        padding: 2rem 0;
+
+        h3{
+            color: #fee800;
+        }
+
+        .button{
+            background-color: #fee800;
+            color: #252525;
+            border-radius: 20px;
+            @include futuraPTExtraBold;
+            text-transform: uppercase;
+            font-size: 1.75rem;
+        }
+
+    }
+
+
+}
+
+
+
+
+// CAT REQUEST PAGE
+#catRequest{
+    padding: 2rem 0;
+    h2{
+        @include futuraPTHeavy;
+        text-transform: uppercase;
+        color: #000;
+        font-size: 2rem;
+
+        span{
+            @include futuraPTExtraBold;
+            color: #E62623;
+            font-size: 2.5rem;
+        }
+    }
+
+    p{
+        @include futuraPTBook;
+        font-size: 1.2rem;
+    }
+
+    fieldset{
+        @include flexColumnCenter;
+
+        a{
+            font-size: 2rem;
+            background-color: #42AC48;
+            @include futuraPTExtraBold;
+            text-transform: uppercase;
+            width: 100% !important;
+            padding: 20px 0;
+        }
+    }
+}

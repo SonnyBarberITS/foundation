@@ -1,0 +1,412 @@
+#sub_lvl_brand {
+    padding: 3rem 0;
+
+    h1,
+    h2 {
+        text-align: center;
+        @include futuraPTHeavy;
+        text-transform: uppercase;
+
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            font-size: 2.5rem;
+        }
+    }
+
+    #sub_lvl_brand_content {
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+
+        .cell {
+            margin-bottom: 2rem;
+
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+
+        .cell-item {
+            background-color: #ffffff;
+
+            h5 {
+                margin: 1rem 0;
+                text-align: center;
+                font-size: 1rem;
+                font-weight: 700;
+                text-transform: uppercase;
+                padding: 5px;
+            }
+        }
+    }
+
+
+    .sub_lvl_brand_related {
+
+
+        .sub_lvl_brand_related_item {
+            @include flexCenter;
+
+            p,
+            a,
+            li,
+            strong,
+            em {
+                @include futuraPTDemi;
+                font-size: 20px;
+            }
+        }
+
+    }
+}
+
+
+// BRANDS CUSTOMISATION
+
+
+// Makita
+#sub_lvl_brand.sub_lvl_brand_makita {
+    background-color: #27757f;
+
+    h1 {
+        color: #fff;
+    }
+
+    .sub_lvl_brand_related {
+
+        p,
+        a,
+        li,
+        strong,
+        em {
+            color: #fff;
+        }
+    }
+
+    #sub_lvl_brand_content {
+        h5 {
+            color: #27757f;
+            font-family: 'Open Sans', sans-serif;
+        }
+    }
+}
+
+
+// Makita
+#sub_lvl_brand.sub_lvl_brand_makita {
+    background-color: #27757f;
+
+    h1 {
+        color: #fff;
+    }
+
+    .sub_lvl_brand_related {
+
+        p,
+        a,
+        li,
+        strong,
+        em {
+            color: #fff;
+        }
+    }
+
+    #sub_lvl_brand_content {
+        h5 {
+            color: #27757f;
+            font-family: 'Open Sans', sans-serif;
+        }
+    }
+}
+
+
+// Dewalt
+#sub_lvl_brand.sub_lvl_brand_dewalt {
+    background-color: #000000;
+
+    h1 {
+        color: #FEBD18;
+        @include oswaldBold;
+    }
+
+    .sub_lvl_brand_related {
+
+        p,
+        a,
+        li,
+        strong,
+        em {
+            color: #fff;
+        }
+    }
+
+    #sub_lvl_brand_content {
+        .cell-item{
+            background-color: #FEBD18;
+        }
+
+        h5 {
+            color: #000;
+            @include oswaldBold;
+        }
+    }
+}
+
+// Milwaukee
+#sub_lvl_brand.sub_lvl_brand_milwaukee{
+    background-color: #A30925;
+
+    h1 {
+        color: #fff;
+        @include eurostileBold;
+    }
+
+    .sub_lvl_brand_related {
+
+        p,
+        a,
+        li,
+        strong,
+        em {
+            color: #fff;
+        }
+    }
+
+    #sub_lvl_brand_content {
+        .cell-item{
+            background-color: #fff;
+        }
+
+        h5 {
+            color: #db011c;
+            @include eurostileBold;
+        }
+    }
+}
+
+
+// Bosch
+#sub_lvl_brand.sub_lvl_brand_bosch{
+    background-color: #023A69;
+
+    h1 {
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .sub_lvl_brand_related {
+
+        p,
+        a,
+        li,
+        strong,
+        em {
+            color: #fff;
+        }
+    }
+
+    #sub_lvl_brand_content {
+        .cell-item{
+            background-color: #023A69;
+        }
+
+        h5 {
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+        }
+    }
+}
+
+// einhell
+#sub_lvl_brand.sub_lvl_brand_einhell{
+    background-color: #D50C1F;
+
+    h1 {
+        color: #fff;
+        @include oswaldBold;
+    }
+
+    .sub_lvl_brand_related {
+
+        p,
+        a,
+        li,
+        strong,
+        em {
+            color: #fff;
+        }
+    }
+
+    #sub_lvl_brand_content {
+        .cell-item{
+            background-color: #fff;
+        }
+
+        h5 {
+            color: #D50C1F;
+            @include oswaldBold;
+            font-weight: 600;
+        }
+    }
+}
+
+// festool
+#sub_lvl_brand.sub_lvl_brand_festool{
+    background-color: #191E2B;
+
+    h1 {
+        color: #46B93A;
+        font-family: Verdana,sans-serif;
+    }
+
+    .sub_lvl_brand_related {
+
+        p,
+        a,
+        li,
+        strong,
+        em {
+            color: #fff;
+        }
+    }
+
+    #sub_lvl_brand_content {
+        .cell-item{
+            background-color: #fff;
+        }
+
+        h5 {
+            color: #191E2B;
+            font-family: Verdana,sans-serif;
+        }
+    }
+}
+
+// hikoki
+#sub_lvl_brand.sub_lvl_brand_hikoki{
+    background-color: #006d50;
+
+    h1 {
+        color: #fff;
+        font-family: 'Noto Sans', sans-serif;
+    }
+
+    .sub_lvl_brand_related {
+
+        p,
+        a,
+        li,
+        strong,
+        em {
+            color: #fff;
+        }
+    }
+
+    #sub_lvl_brand_content {
+        .cell-item{
+            background-color: #fff;
+        }
+
+        h5 {
+            color: #006d50;
+            font-family: 'Noto Sans', sans-serif;
+        }
+    }
+}
+
+// metabo
+#sub_lvl_brand.sub_lvl_brand_metabo{
+    background-color: #224b44;
+
+    h1 {
+        color: #fff;
+            font-family: Arial,sans-serif;
+    }
+
+    .sub_lvl_brand_related {
+
+        p,
+        a,
+        li,
+        strong,
+        em {
+            color: #fff;
+        }
+    }
+
+    #sub_lvl_brand_content {
+        .cell-item{
+            background-color: #fff;
+        }
+
+        h5 {
+            color: #224b44;
+                font-family: Arial,sans-serif;
+        }
+    }
+}
+
+// trend
+#sub_lvl_brand.sub_lvl_brand_trend{
+    background-color: #252525;
+
+    h1 {
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+    }
+
+    .sub_lvl_brand_related {
+
+        p,
+        a,
+        li,
+        strong,
+        em {
+            color: #fff;
+        }
+    }
+
+    #sub_lvl_brand_content {
+        .cell-item{
+            background-color: #fff;
+        }
+
+        h5 {
+            color: #252525;
+            font-family: 'Open Sans', sans-serif;
+        }
+    }
+}
+
+// worx
+#sub_lvl_brand.sub_lvl_brand_worx{
+    background-color: #e85900;
+    font-weight: 600;
+
+    h1 {
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .sub_lvl_brand_related {
+
+        p,
+        a,
+        li,
+        strong,
+        em {
+            color: #fff;
+        }
+    }
+
+    #sub_lvl_brand_content {
+        .cell-item{
+            background-color: #fff;
+        }
+
+        h5 {
+            color: #e85900;
+            font-family: 'Open Sans', sans-serif;
+        }
+    }
+}

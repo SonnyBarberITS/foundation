@@ -1,0 +1,178 @@
+.region-slider {
+    .slick-slider {
+        margin: 0 -5px;
+    }
+
+    .slick-slide {
+        background-color: red;
+        text-align: center;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .product-region-item {
+        background-color: #ffffff;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        .product-region-saving {
+            @include flexCenter;
+            min-height: 40px;
+            width: 100%;
+
+            span {
+                background-color: #DA1515;
+                color: #ffffff;
+                font-size: 18px;
+                padding: 5px;
+                margin-bottom: 10px;
+                @include futuraPTDemi;
+                border-radius: 0 0 5px 5px;
+
+                @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .product-region-inner {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 225px;
+            padding: 5px;
+
+            a{
+                color: #000000 !important;
+                font-family: "futura-pt", "Source Sans Pro", Arial, "Helvetica Neue", sans-serif !important;
+                font-size: 16px;
+                @include flexStart;
+                font-weight: 600;
+                @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                    font-size: 13px;
+                }
+            }
+        }
+
+        #product-region-title {
+            a {
+                color: #000000 !important;
+                @include futuraPTDemi;
+                font-size: 16px;
+                min-height: 60px;
+                @include flexStart;
+                @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                    font-size: 13px;
+                }
+            }
+        }
+
+        .product-region-2col {
+            @include flexCenter;
+
+            >div {
+                margin-bottom: 0 !important;
+            }
+
+            .product-region-image {
+                img {
+                    width: 100%;
+                }
+            }
+
+            .product-region-pricing {
+                @include flexColumnEnd;
+                margin-bottom: 0;
+
+                .product-region-status {
+                    .product-region-status-In {
+                        color: #1ca902;
+                        font-size: 16px;
+                        @include futuraPTDemi;
+                        text-transform: uppercase;
+                    }
+
+                    .product-region-status-Available{
+                        color: orange;
+                        font-size: 16px;
+                        @include futuraPTDemi;
+                        text-transform: uppercase;
+                    }
+                }
+
+                .product-region-was {
+                    span {
+                        text-decoration: line-through;
+                        font-size: 14px;
+                        @include futuraPTMedium;
+                    }
+                }
+
+                .product-region-saving-alt{
+                    span{
+                        color: red;
+                        font-size: 15px;
+                        @include futuraPTHeavy;
+                    }
+                }
+
+                .product-region-exVAT {
+                    span {
+                        @include futuraPTDemi;
+                        font-size: 25px;
+                    }
+                }
+
+                .product-region-incVAT {
+                    font-size: 14px;
+                    @include futuraPTMedium;
+                    margin-bottom: 5px;
+                }
+
+                .product-region-shop-btn {
+                    width: 100%;
+                    @include flexCenter;
+
+                    a {
+                        width: 100%;
+                        @include flexCenter;
+                    }
+
+                    span {
+                        width: 100%;
+                        text-align: center;
+                        background-color: #1ca902;
+                        color: #fff;
+                        font-size: 16px;
+                        text-transform: uppercase;
+                        padding: 5px;
+                        @include futuraPTDemi;
+                        border-radius: 5px;
+                    }
+                }
+
+                @media (min-width: $mobileSmall) and (max-width: $tablet) {
+                    align-items: center;
+                }
+
+            }
+        }
+
+
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            min-height: 417px;
+        }
+
+
+    }
+
+    .product-region-item.medium-up-4 {
+        height: 270px;
+    }
+
+    .product-region-item.small-up-2 {}
+}

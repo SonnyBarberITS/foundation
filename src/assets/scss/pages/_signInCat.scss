@@ -1,0 +1,75 @@
+#signIn.signInCat{
+    .signInWrapper{
+        @include flexColumnCenter;
+
+        .signInTitleNew{
+            font-size: 40px; 
+            text-align: center; 
+            margin: 0px auto 20px auto;
+            color: #0081b9;
+
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                font-size: 28px;
+            }
+        }
+
+        .fa-caret-down{
+            color: #0081b9;
+            font-size: 80px;
+            margin: 0px auto;
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                font-size: 60px;
+            }
+        }
+
+        .signInCatColTop{
+            width: 100%;
+            padding: 2rem 1rem;
+
+            .siRegisterContainer{
+                @include flexCenter;
+                width: 100%;
+
+                .signInRegister{
+                    font-size: 30px;
+                    max-width: 230px;
+                }
+            }
+        }
+
+
+        .signInCatColBottom{
+            width: 100%;
+
+            .signInTitle{
+                text-align: center;
+                width: 100%;
+            }
+
+            .SignInExist{
+                @include flexColumnCenter;
+                width: 100%;
+
+                fieldset{
+                    @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                        width: 100%;
+                    }
+                }
+            }
+
+            label, .ForgotPass{
+                font-size: .75rem;
+            }
+
+            .RegisterContBtn{
+                font-size: 16px;
+            }
+
+            input{
+                height: 30px;
+            }
+
+        }
+
+    }
+}

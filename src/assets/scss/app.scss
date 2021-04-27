@@ -1,18 +1,22 @@
 @charset 'utf-8';
 
+@import '../scss/helpers/variables';
+@import '../scss/helpers/_mixins';
+@import '../scss/helpers/mediaQuery';
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
+@import '../scss/custom/custom';
 
 // Global styles
 @include foundation-global-styles;
-@include foundation-forms;
+// @include foundation-forms;
 @include foundation-typography;
 
 // Grids (choose one)
 @include foundation-xy-grid-classes;
-// @include foundation-grid;
-// @include foundation-flex-grid;
+@include foundation-grid;
+@include foundation-flex-grid;
 
 // Generic components
 @include foundation-button;
@@ -62,3 +66,54 @@
 // Motion UI
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+
+// Layouts
+@import '../scss/layout/halfPriceRewards';
+@import '../scss/layout/newCatSliderRegion';
+@import '../scss/layout/prodRegionSliderSquares';
+@import '../scss/layout/prodRegionSmallThumbs';
+@import '../scss/layout/prodRegionSquares';
+@import '../scss/layout/productListingSale';
+
+// plugins
+@import '../scss/plugins/doofinder';
+@import '../scss/plugins/slickSlider';
+
+// Pages
+@import '../scss/pages/advent';
+@import '../scss/pages/adventDeal';
+@import '../scss/pages/bankHolidayDeals';
+@import '../scss/pages/blackFriday';
+@import '../scss/pages/bosch';
+@import '../scss/pages/clearance';
+@import '../scss/pages/decorating';
+@import '../scss/pages/einhell';
+@import '../scss/pages/gardenOutdoor';
+@import '../scss/pages/glasscast';
+@import '../scss/pages/hierarchyEvent';
+@import '../scss/pages/home';
+@import '../scss/pages/lawnGarden';
+@import '../scss/pages/metabo';
+@import '../scss/pages/newCat';
+@import '../scss/pages/outdoorDecorating';
+@import '../scss/pages/popularWorkwear';
+@import '../scss/pages/powerZone';
+@import '../scss/pages/saleOver';
+@import '../scss/pages/sellingFast';
+@import '../scss/pages/signInCat';
+@import '../scss/pages/siteLighting';
+@import '../scss/pages/storeLocations';
+@import '../scss/pages/subLvlBrands';
+@import '../scss/pages/taxEvent';
+@import '../scss/pages/topLvlBrands';
+@import '../scss/pages/topLvlCategory';
+@import '../scss/pages/vauntMega';
+@import '../scss/pages/vauntTCT';
+@import '../scss/pages/workwear';
+@import '../scss/pages/workwearClearance';
+@import '../scss/pages/xmasGifts';
+
+// ITS components
+@import '../scss/components/flashDealsRegion';
+@import '../scss/components/countdownClock';

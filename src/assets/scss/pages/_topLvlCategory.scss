@@ -1,0 +1,113 @@
+#top_lvl_cat_pages {
+  .heroImg{margin: 0 auto; max-width: 1920px; width: 100%;}
+
+  .spacer {
+    padding: 2rem 0;
+  }
+
+  .callout {
+    border: none;
+    box-shadow: none;
+    padding-bottom: 0;
+    @media (min-width: $mobileSmall) and (max-width: $mobile) {
+      padding: 2rem 0 0 0;
+    }
+  }
+
+  h1,
+  h2 {
+    font-weight: 600;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    font-weight: 600;
+  }
+
+  .thumbnail {
+    border-radius: 10px;
+    border: none;
+    box-shadow: none;
+    transition: box-shadow 0.2s ease-in-out;
+
+    &:hover {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  .small-up-1{
+    img{
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            width: 100%;
+        }
+    }
+  }
+
+  .cpt__brands {
+    .thumbnail {
+      border-radius: 0;
+    }
+  }
+
+  .button {
+    margin: 1.5rem 0;
+    background-color: $black;
+    color: $its-yellow;
+    text-transform: uppercase;
+    @include futuraPTExtraBold;
+    font-size: 1.5rem;
+    transition: box-shadow 0.2s ease-in-out;
+
+    &:hover {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  .pr__square--region {
+    .pr__region--item {
+      .callout {
+        background-color: #fff;
+        padding: 1rem;
+
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+          margin: 0;
+        }
+      }
+
+      .PR_Img {
+        width: 100%;
+      }
+
+      .button {
+        text-transform: uppercase;
+        border-radius: 5px;
+        @include futuraPTDemi;
+        font-size: 0.75rem;
+        width: 100%;
+        margin-bottom: 5px;
+        margin-top: 0;
+      }
+
+      .pr__btn--buy,
+      .pr__btn--info {
+        background-color: $green;
+        color: #fff;
+      }
+
+      .pr__btn--pre {
+        background-color: orange;
+        color: #fff;
+      }
+
+      .pr__more--info {
+        background-color: #0081b9;
+        color: #fff;
+      }
+
+      @media (min-width: $mobileSmall) and (max-width: $mobile) {
+        padding: 2.5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+
+
+// laptop sizes
+@media (min-width: $laptopSmall) and (max-width: $laptop) {}
+@media (min-width: $tablet) and (max-width: $laptop) {}
+@media (min-width: $mobile) and (max-width: $laptop) {}
+@media (min-width: $mobileSmall) and (max-width: $laptop) {}
+
+
+// laptop small sizes
+@media (min-width: $mobile) and (max-width: $laptopSmall) {}
+@media (min-width: $mobileSmall) and (max-width: $laptopSmall) {}
+
+// tablet sizes
+@media (min-width: $mobile) and (max-width: $tablet) {}
+@media (min-width: $mobileSmall) and (max-width: $tablet) {}
+
+// mobile sizes
+
+
+@media (min-width: $mobileSmall) and (max-width: $mobile) {}

@@ -1,0 +1,48 @@
+#sale__over{
+    h1{
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+           background: none !important;
+        }
+    }
+
+    .page__wrapper{
+        >span{
+            margin-bottom: 2rem;
+        }
+    }
+    
+    .bf-seo-text{
+        color: $white;
+        text-align: center;
+        display: block;
+        float: none;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            font-size: 12px;
+         }
+    }
+
+    .homeFlexContainer{
+        max-width: 1200px;
+
+        .HomeFlexParent4{
+            display: flex;
+            flex-direction: row-reverse;
+            
+            .FlexItem-left, .FlexItem-right{
+                display: flex;
+                flex-direction: column;
+                img{
+                    max-width: 534px;
+                }
+            }
+
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                justify-content: flex-end !important;
+             }
+        }
+    }
+}

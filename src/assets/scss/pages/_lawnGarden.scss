@@ -1,0 +1,39 @@
+#top_lvl_cat_pages.lawnGarden{
+    background-color: #416A3E;
+
+    .callout{
+        background-color: #416A3E;
+    }
+
+    .thumbnail{
+        border-radius: 0;
+    }
+
+    h1, h2{
+        color: #fff;
+    }
+
+    .lawn_buttons{
+        background: #fff;
+        color: #6BB04A;
+        border: 7px solid #6BB04A;
+        width: 100%;
+        text-align: center;
+        min-height: 110px;
+        @include flexCenter;
+        margin: 2.5px 0;
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+
+    .lawn__more{
+        padding-bottom: 2rem;
+         
+        .cell{
+            padding-right: .375rem;
+            padding-left: .375rem;
+            padding-top: .375rem;
+            padding-bottom: .375rem;
+        }
+    }
+}

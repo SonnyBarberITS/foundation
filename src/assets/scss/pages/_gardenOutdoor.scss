@@ -1,0 +1,301 @@
+#gardenOutdoor {
+    background-image: url('https://its-london.s3-eu-west-1.amazonaws.com/themes/GARDENOUTDOOR/background.jpg');
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: center;
+
+    h2, h3, p, a{
+        color: #fff;
+        text-align: center;
+    }
+
+    h2, h3{
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    h2{
+        font-size: 50px;
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            font-size: 25px;
+        }
+    }
+
+    h3{
+        @include futuraPTHeavy;
+        font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300))) !important;
+    }
+
+    p{
+        @include futuraPTDemi;
+        font-size: 25px;
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            font-size: 15px;
+        }
+    }
+
+    p{
+        a{
+            text-decoration: underline;
+            @include futuraPTDemi;
+            font-size: 25px;
+        }
+    }
+
+
+    a {
+        span {
+            @include latoBold;
+            font-style: italic;
+            color: #fff;
+            font-size: 22px;
+            text-transform: uppercase;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    hr{
+        border-bottom: 4px solid #ffffff;
+    }
+
+    .thumbnail{
+        &:hover{
+           border-color: #68a642;
+        }
+    }
+    
+    .thumbnail-mowers{
+        &:hover{
+          border-color: #6FAD00;  
+        }
+    }
+
+    .thumbnail-pressure-washers{
+        &:hover{
+          border-color: #FFAA00;  
+        }
+    }
+
+    .thumbnail-decorating{
+        &:hover{
+            border-color: #332A25;
+        }
+    }
+
+    .thumbnail-hand-tools{
+        &:hover{
+          border-color: #828282;  
+        }
+    }
+
+    .thumbnail-wheelbarrows{
+        &:hover{
+          border-color: #FF2A00;  
+        }
+    }
+
+    .thumbnail-line-trimmers{
+        &:hover{
+          border-color: #243010;  
+        }
+    }
+
+    .thumbnail-hedge-trimmers{
+        &:hover{
+          border-color: #1D4813;  
+        }
+    }
+
+    .thumbnail-chainsaws{
+        &:hover{
+          border-color: #FF2A00;  
+        }
+    }
+
+    .thumbnail-blowers{
+        &:hover{
+          border-color: #FF6400;  
+        }
+    }
+
+    .thumbnail-gazebos{
+        &:hover{
+          border-color: #189ACB;  
+        }
+    }
+
+    .thumbnail-care{
+        &:hover{
+          border-color: #21A301;  
+        }
+    }
+
+    .thumbnail-watering{
+        &:hover{
+          border-color: #0078FA;  
+        }
+    }
+
+
+    .thumbnail-bbqs{
+        &:hover{
+          border-color: #A43228;  
+        }
+    }
+
+
+
+    .thumbnail-makita{
+        &:hover{
+          border-color: #007888;  
+        }
+    }
+
+    .thumbnail-dewalt{
+        &:hover{
+          border-color: #F6B415;  
+        }
+    }
+
+    .thumbnail-milwaukee{
+        &:hover{
+          border-color: #CF152D;  
+        }
+    }
+
+    #header {
+        @include flexColumnCenter;
+        background-color: #1F5F13;
+
+        .menu {
+            max-width: 75%;
+            width: 75%;
+            justify-content: space-between;
+            padding: 1rem 0;
+
+            li {}
+
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                display: none;
+            }
+        }
+    }
+
+    .intro-text{
+        margin-top: 50px;
+    }
+
+    .category-container {
+        width: 100%;
+        padding: 2rem 1rem;
+        margin: 0 auto;
+
+        .cell{
+            margin-bottom: 20px;
+        }
+
+        .cat_thumb {
+            @include flexColumn;
+            margin-bottom: 20px;
+
+            .menu {
+                width: 100%;
+                min-height: 76px;
+                justify-content: center;
+                align-items: center;
+
+                @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                    min-height: 150px;
+                }
+
+                a {
+                    @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                        padding: 5px 0;
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+
+                @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                    justify-content: space-evenly;
+                }
+            }
+
+            a {
+                span {
+                    font-size: 13px;
+
+                    @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                        font-size: 15px;
+                    }
+                }
+
+
+            }
+        }
+
+
+
+       
+
+        .cordless-banner{
+            margin-bottom: 20px;
+        }
+
+
+        
+@media (min-width: $mobileSmall) and (max-width: $mobile) {
+    padding: 1rem 0;
+}
+    }
+
+
+    .more-categories{
+
+        .cell{
+            margin-bottom: 5px;
+        }
+
+        .lawn_buttons{
+            @include flexColumnCenter;
+            @include futuraPTHeavy;
+    
+        background: #fff;
+        color: #6BB04A;
+        border: 7px solid #6BB04A;
+        width: 100%;
+        text-align: center;
+        min-height: 110px;
+        text-transform: uppercase;
+        margin: 2.5px 0;
+        font-size: 20px;
+        transition: all .3s ease-in-out;
+
+            &:hover{
+                border-color: #21A301;
+                color: #21A301;  
+            }
+
+        }
+
+    }
+
+
+    
+
+
+    #brand-pr{
+        width: 100%;
+        margin: 20px auto 0 auto;
+
+        .brand-pr-cell{
+            margin-bottom: 30px;
+        }
+    }
+
+
+
+}

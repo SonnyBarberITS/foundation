@@ -1,0 +1,169 @@
+#advent__deal {
+  background: url("https://its-london.s3-eu-west-1.amazonaws.com/themes/XMAS/background.jpg");
+
+  a {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  h2,
+  h2 span,
+  h3 {
+    @include futuraPTHeavy;
+    text-transform: uppercase;
+    color: $red;
+    text-align: center;
+    font-size: 2.5rem;
+
+    @media (min-width: $mobileSmall) and (max-width: $mobile) {
+      font-size: 2rem;
+    }
+  }
+
+  h2 {
+    span {
+      color: #252525;
+    }
+  }
+
+  h2.highlight__msg {
+    font-weight: 800;
+    font-size: 4rem;
+    margin-bottom: 0;
+    @media (min-width: $mobileSmall) and (max-width: $mobile) {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+  }
+
+  h3 {
+    font-size: 2rem;
+    color: #000;
+    display: block;
+    width: 100%;
+  }
+
+  .highlight__sub__msg {
+    font-size: 6rem;
+
+    span {
+      font-size: 2rem;
+      @include futuraPTDemi;
+    }
+  }
+
+  .countdown__clock {
+    @include flexColumnCenter;
+  }
+
+  .advent__deal--img {
+    border: 6px solid #afdcf1;
+    box-shadow: 0px 5px 10px #00000042;
+    border-radius: 10px;
+  }
+
+  .advent__promo--code {
+    background: #fee402;
+    padding: 2rem 0;
+    margin: 1rem 0;
+  }
+
+  #advent__deal2 {
+    .highlight__msg {
+      font-size: 5rem;
+      @media (min-width: $mobileSmall) and (max-width: $mobile) {
+        font-size: 2rem;
+      }
+    }
+    .highlight__sub__msg {
+      font-size: 4rem;
+      line-height: 3rem;
+      @media (min-width: $mobileSmall) and (max-width: $mobile) {
+        font-size: 1.75rem;
+      }
+    }
+  }
+
+  #advent__deal6 {
+    .highlight__sub__msg {
+      font-size: 3rem;
+      margin-bottom: 0;
+      @media (min-width: $mobileSmall) and (max-width: $mobile) {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  #advent__deal24 {
+    #pdList {
+      li {
+        background-color: #fff;
+        height: 570px;
+        border: 2px solid #c8dff1;
+        border-radius: 5px;
+        width: 218px;
+
+        .CatRefGridList {
+          display: block;
+          text-align: center;
+        }
+
+        .Stock {
+          color: #1ca902;
+        }
+
+        .Soon {
+          color: orange;
+        }
+
+        .Stock,
+        .Soon {
+          font-weight: 600;
+        }
+
+        a {
+          margin-bottom: 2.5px;
+        }
+
+        .PREORDER {
+          color: #3c3c3c;
+        }
+
+        .Action{
+            min-height: 170px;
+        }
+
+        .savingBlockContainer{
+          min-height: 33px;
+          display: block;
+          float: left;
+          width: 100%;
+
+          .savingBlock {
+            display: block;
+            float: left;
+            width: 100%;
+            margin: 5px auto;
+            background: red; 
+            border-radius: 2px;
+            text-align: center;
+
+            .savingBlockText {
+              color: #fff;
+              text-align: center;
+              width: 100%;
+              font-family: "Roboto Condensed", sans-serif;
+              font-weight: 700;
+              font-style: normal;
+              font-size: 20px;
+            }
+          }
+        }
+
+        .webOffers{
+            min-height: 52px;
+        }
+      }
+    }
+  }
+}

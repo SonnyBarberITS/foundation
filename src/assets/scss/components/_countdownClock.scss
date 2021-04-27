@@ -1,0 +1,38 @@
+#countdown-clock{
+    @include flexCenter;
+    background-color: #343B46;
+    max-width: 630px;
+    padding: .5rem;
+    margin: 0 auto 5px auto;
+    border-radius: 10px;
+
+
+    .countdown-row{
+        padding: 15px 0;
+        background-color: #0F141B;
+        width: 100%;
+
+        .countdown-col{
+            background-color: #F0F0F0;
+            padding: 5px;
+
+            h5{color:#17191F; font-size: 80px; margin-bottom: 0; @include montserratHeavy;
+                @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                    font-size: 2rem;
+                }
+            }
+            span{color:#17191F; font-size: 13px; @include montserratMedium;
+                @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                    font-size: .75rem;
+                }
+            }
+
+            &:last-child{
+                background-color: #1C232A;    
+                h5{color: #fff;}
+                span{color: #fff;}
+            }
+        }
+    }
+
+}

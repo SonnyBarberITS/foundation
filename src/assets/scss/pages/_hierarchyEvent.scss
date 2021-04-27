@@ -1,0 +1,25 @@
+ // hierarchy level categories
+ .eventHierarchyLvl{
+    padding: 2rem 0;
+
+    h1{
+        text-transform: uppercase;
+        @include montserratHeavy;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    h5{
+        margin: 0 !important;
+        color: #fff;
+        @include montserratHeavy;
+    }
+
+    .grid-x{
+        margin: 0;
+    }
+}
+
+.eventHierarchyLvl.fixingsEventHierarchyLvl{
+    background-color: #009fe3;
+}

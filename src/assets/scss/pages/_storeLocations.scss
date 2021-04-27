@@ -1,0 +1,143 @@
+#storeLocations{
+    h1,h2{text-align: center;
+        @include futuraPTExtraBold;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    h3{
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+
+    #store__info{
+        background-color: #292929;
+        padding: 3rem 0;
+
+        h2{
+            @include futuraPTExtraBold;
+            color: #fee420;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        p{
+            text-align: center;
+            font-size: 2rem;
+
+        }
+
+        p, a, a span{
+            color: #fff;
+            @include futuraPTBook;
+        }
+
+        a.store__links{
+            .map__pin{
+                max-width: 40px;
+                margin-right: 5px;
+            }
+
+
+            p, span{
+                @include oswaldBold;
+                text-transform: uppercase;
+                font-size: 2rem;
+            }
+
+            span{
+                color: #fee420;
+                margin-left: 10px;
+                margin-top: .26rem;
+            }
+        }
+
+
+    }
+
+    #hero{
+        padding: 5rem 0;
+        background-image: url(https://its-london.s3-eu-west-1.amazonaws.com/themes/POWERZONE/background.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        .store_links{
+            padding: 5px;
+            .button{
+                width: 100%;
+                background-color: #fae300;
+                color: #000;
+                @include futuraPTHeavy;
+                text-transform: uppercase;
+                font-size: 1.5rem;
+
+                span{
+                    @include futuraPTDemi;
+                    font-size: .875rem;
+                    display: block;
+                    margin: 1rem 0;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    #opening__hours{
+        padding: 5rem 0;
+        background: #161616;
+        hr{max-width: 480px;}
+        h2{}
+        .hours__container{margin-bottom: 2rem;}
+        .large-12{
+            text-align: center;
+
+            strong{
+                color: #fff;
+                @include oswaldBold;
+                text-transform: uppercase;
+                font-size: 2rem;
+
+                span{
+                    @include oswaldBold;
+                text-transform: uppercase;
+                font-size: 2rem;
+                    color: #fae300;
+                }
+            }
+            p{
+                color: #fff;
+                font-size: 1.75rem;
+                text-align: center;
+            }
+        }
+    }
+
+    #shop__its{
+        padding: 5rem 0;
+        background: #fee300;
+        h2{
+            color: #000;
+        }
+        h3{
+            color: #000;
+            text-align: center;
+            @include futuraPTHeavy;
+            min-height: 86px;
+        }
+        hr{
+            border-color: #000;
+            max-width: 480px;
+        }
+        p{
+            text-align: center;
+            font-size: 1.2rem;
+        }
+        img{
+            max-width: 220px;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}

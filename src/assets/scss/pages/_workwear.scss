@@ -1,0 +1,29 @@
+#workwear{
+
+    .hero__img{
+        margin-bottom: 2rem;
+    }
+
+    h2{
+        @include oswaldBold;
+        text-transform: uppercase;
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            font-size: 1.5rem;
+          }
+    }
+
+    .thumbnail{
+        border-radius: 20px;
+        border: none;
+        box-shadow: none;
+        transition: box-shadow 0.2s ease-in-out;
+
+        &:hover{
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+    }
+
+    .workwear__brands{
+        margin: 3rem auto;
+    }
+}

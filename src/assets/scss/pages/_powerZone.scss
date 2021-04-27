@@ -1,0 +1,159 @@
+#powerZone{
+
+    .grid-container{
+        padding: 4rem;
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            padding: 1.5rem;
+        }
+
+        .large-12{
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                width: 100%;
+            }
+        }
+    }
+
+    h1, h2{
+        @include oswaldBold;
+        text-transform: uppercase;
+        color: #000;
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            text-align: center;
+            font-size: 1.75rem;
+        }
+    }
+
+    h4{
+        @include futuraPTHeavy;
+        color: #000;
+        text-align: center;
+    }
+
+    p{
+        @include futuraPTBook;
+        font-size: 1.5rem;
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            font-size: 1.2rem;
+            text-align: center;
+        }
+    }
+
+    .column__reverse--m{
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            flex-direction: column-reverse;
+        }
+    }
+
+    #hero{
+        background-image: url('https://its-london.s3-eu-west-1.amazonaws.com/themes/POWERZONE/background.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 2% 0;
+
+        h2{color: #fff; text-align: center;}
+    }
+
+
+    #intro, #pz__feature2, #pz__stores{
+        background-color: #fee420;
+    }
+
+    #pz__feature1, #pz__feature3{
+        background-image: url('https://its-london.s3-eu-west-1.amazonaws.com/themes/POWERZONE/bricksBackground.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        h2, p{color: #fff;}
+    }
+
+    #intro{
+        .intro__text--container{
+            margin-bottom: 2rem;
+            h1, p{text-align: center;}
+        }
+
+        .intro__usps--container{
+            h2,h4, p{text-align: center;}
+            h4{text-transform: uppercase; margin-top: 2rem; margin-bottom: 0;}
+            .small-12{
+                @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                    margin: 1rem 0;
+                }
+            }
+        }
+    }
+
+    .pz__experts{
+        padding: 4rem 0 0 0;
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            padding: 1rem 1rem 0 1rem;
+        }
+
+        .small-12{
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                @include flexColumnCenter;
+            }
+        }
+
+        img{
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                width: 50%;
+            }
+        }
+    }
+
+    #pz__feature1, #pz__feature2, #pz__feature3{
+        .grid-x{
+            @include flexCenter;
+        }
+    }
+    
+    #pz__stores{
+        .large-12{
+            @include flexColumnCenter;
+        }
+
+        .pz__store--icon{
+            max-width: 300px;
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                width: 50%;
+            }
+        }
+
+        .store__hours{
+            margin: 4% 0 0 0;
+            h2, p{text-align: center;}
+        }
+
+        .store__container{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+
+            .store__container--inner{
+                margin: 2% 0;
+                max-width: 300px;
+                @include flexColumnCenter;
+                padding: 10px;
+                border: 5px solid #000;
+                p{
+                    text-align: center;
+                }
+                .button{
+                    background-color: #000;
+                    @include oswaldBold;
+                    text-transform: uppercase;
+                }
+
+                @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                   border: 2px solid #000;
+                   width: 48%;
+                   margin:0 .5% 5% .5%;
+                }
+            }
+        }
+    }
+
+}

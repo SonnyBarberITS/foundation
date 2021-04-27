@@ -1,0 +1,161 @@
+#einhell{
+    background-color: #FEFEFE;
+
+    h1, h2, h3{
+        @include oswaldBold;
+        color: #000;
+        text-transform: uppercase;
+    }
+
+    h2{
+        font-size: 50px;
+        @media (min-width: $mobileSmall) and (max-width: $tablet) {
+         font-size: 25px;
+        }
+    }
+
+    p{
+        @include oswaldLight;
+        font-size: 22px;
+        @media (min-width: $mobileSmall) and (max-width: $tablet) {
+            font-size: 18px;
+           }
+    }
+
+    a{
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    .button{
+        background-color: #C90013;
+        @include oswaldBold;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+    .hide-medium{
+        @media (min-width: $mobileSmall) and (max-width: $laptopSmall) {
+            display: none;
+        }
+    }
+
+
+    .einhell-logo{
+        background-color: #C90013;
+        .cell{text-align: center;}
+        img{
+            max-width: 300px;
+            margin: 0 auto;
+        }
+        @media (min-width: $mobileSmall) and (max-width: $tablet) {
+            margin-bottom: 10px;
+           }
+    }
+
+
+    .einhell-intro{
+        .button{
+            margin-bottom: 50px;
+        }
+        .grid-x{
+            align-items: center;
+            justify-content: center;
+
+            .cell{
+                @include flexColumnCenter;
+            }
+        }
+    }
+
+
+    .einhell-cat-cards{
+        .callout{
+            margin-top: -45px;
+            background-color: #fff;
+            border-radius: 10px;
+            border: none;
+            box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.5);
+            a{
+                @include flexColumnCenter;
+            }
+            p{
+                text-align: center;
+            }
+
+            @media (min-width: $mobileSmall) and (max-width: $tablet) {
+                margin-top: 0;
+            }
+        }
+    }
+
+    .einhell-tabs{
+        margin: 20px 0;
+        .tab-title-container{
+            border-bottom: 3px solid #C90013;
+            margin-bottom: 10px;
+            h3{
+                color: #fff;
+                background-color: #C90013;
+                padding: 5px;
+                margin: 0;
+                max-width: 180px;
+                text-align: center;
+            }
+        }
+        ul{
+            li{
+                a{
+                    @include oswaldRegular;
+                    font-size: 20px;
+                    display: block;
+                    margin: 5px 0;
+    
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    .einhell-lawnmowers{
+        margin: 50px 0;
+        .cell{
+            @include flexColumnCenter;
+        }
+    }
+
+    .einhell-pr{
+        margin: 50px auto;
+        h2{
+            margin-bottom: 20px;
+        }
+        
+        .product-region-item{
+            border: 1px solid #eaeaea;
+            box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.5);
+            margin-bottom: 10px;
+        }
+    }
+
+
+    .einhell-cordless-lawnmowers{
+        img{
+            max-width: 800px;
+            @media (min-width: $mobileSmall) and (max-width: $tablet) {
+                width: 100%;
+               }
+        }
+    }
+
+    .einhell-cordless-sander{
+        .grid-x{
+            @media (min-width: $mobileSmall) and (max-width: $tablet) {
+                flex-direction: column-reverse;
+            }
+        }
+    }
+    
+}

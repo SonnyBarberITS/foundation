@@ -1,0 +1,35 @@
+#top_lvl_cat_pages.siteLighting{
+
+    background-color: #1B1B1B;
+
+    .callout{
+        background-color: #1B1B1B;
+    }
+
+    h1, h2{
+        @include oswaldBold;
+        color: #f4b702;
+        font-size: 4rem;
+
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            font-size: 2rem;
+        }
+    }
+
+    p{
+        color: #fff;
+        font-size: 1.5rem;
+    }
+
+    .button__white{
+        background-color: #fff;
+        color: #000;
+        font-size: 3rem;
+        margin: 4rem 0 3rem 0;
+        box-shadow: 0 0 43px #ffffff6b;
+        border-radius: 10px;
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+           font-size: 2rem;
+        }
+    }
+}

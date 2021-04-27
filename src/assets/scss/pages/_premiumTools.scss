@@ -1,0 +1,65 @@
+#premiumTools{
+    background-color: #394046;
+    padding: 0 0 3rem 0;
+
+    h1, h2, h3, h4, h5, h6{
+        color: #fff;
+        text-align: center;
+        @include futuraPTHeavy;
+    }
+
+    h1, h2{
+        text-transform: uppercase;
+
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            font-size: 2rem;
+        }
+    }
+
+
+    p{
+        color: #F9E401;
+        @include futuraPTDemi;
+        font-size: 2rem;
+
+        span{
+            color: #fff;
+            @include futuraPTDemi;
+            font-size: 2rem;
+
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                font-size: 1rem;
+            }
+        }
+
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            font-size: 1rem;
+        }
+    }
+
+    hr{
+        border: none;
+    }
+
+    .cell-item{
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            margin-bottom: 1rem;
+        }
+    }
+
+    .categories-container{}
+
+    .product-region-inner{
+        padding: 1rem;
+    }
+
+    #sub_lvl_brand_content{
+        padding: 2rem 0;
+    }
+
+    .product-region-item{
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            min-height: 370px;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+// Homepage Slider
+
+
+// Black Friday Homepage
+
+#blackFriday.homeBlackFriday{
+    .slider-region{
+        .slick-slide{padding: 5px;}
+    }
+
+    .brandslider{
+        .slick-prev{left: -40px; top: 25%; background: url('https://its-london.s3.amazonaws.com/css/arrow-left-white.png'); background-size: cover;}
+        .slick-next{right: -40px; top: 25%; background: url('https://its-london.s3.amazonaws.com/css/arrow-right-white.png');  background-size: cover;}
+    }
+
+}

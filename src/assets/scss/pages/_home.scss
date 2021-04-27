@@ -1,0 +1,52 @@
+#its__home{
+    background-color: #F7f7f7;
+
+    
+
+    h2{
+        @include montserratDemi;
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+
+    .slick-slider {
+        margin:0 -15px;
+    }
+    .slick-slide {
+        text-align:center;
+        margin-right:15px;
+        margin-left:15px;
+    }
+
+    .button{
+        margin: 1rem 0;
+        font-size: 1rem;
+    }
+
+    #home__brands{
+        margin: 2rem 0;
+    }
+
+    #home__squares{
+
+    }
+
+    #home__strip--banners{
+        margin: 1rem 0;
+    }
+
+    .thumbnail{
+        margin-bottom: 0;
+            padding: 5px;
+            border: none;
+    }
+
+    img{
+        box-shadow: none;
+    }
+
+    #product__region{
+        margin: 2rem 0;
+    }
+
+}

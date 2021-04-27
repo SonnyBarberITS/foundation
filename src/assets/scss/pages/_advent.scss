@@ -1,0 +1,19 @@
+#advent{
+    background-image: url('https://its-london.s3-eu-west-1.amazonaws.com/themes/XMAS/background.jpg') !important;
+    flex-direction: column;
+    padding: 0 !important;
+
+    .advent__input--container{
+        margin: 5% 0;
+    }
+}
+
+#advent__deal--end{
+    h2{
+        @include futuraPTHeavy;
+        text-transform: uppercase;
+    }
+    .advent__next--deal{
+        margin-bottom: 2rem;
+    }
+} 

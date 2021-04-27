@@ -1,0 +1,30 @@
+#decorating{
+    .heroImg{
+        display: block;
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+
+    .PR_decorating{
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+
+    #decorating__seperator--fw{
+        img{
+            max-width: 1920px;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+
+    #outdoor__decorating--banner{
+        > a {
+            img{
+                max-width: 1920px;
+                margin: 0 auto;
+                display: block;
+            }
+        }
+    }
+}

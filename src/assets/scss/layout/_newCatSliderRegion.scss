@@ -1,0 +1,62 @@
+.newCatRow{
+    .newCatProdItem{
+        @include flexColumnSpaceEvenly;
+        display: flex !important;
+        background-color: #fff;
+    padding: 5px;
+    min-height: 430px;
+    max-height: 430px;
+    margin: 0 10px;
+
+        .ncBrandLogo{
+            width: 100px;
+            margin: 0 auto;
+            margin-bottom: .5rem;
+        }
+        .ncDesc{
+            @include futuraPTDemi;
+            font-size: 1rem;
+        }
+        .ncImageMain{
+            max-width: 160px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .ncPriceContainer{
+            @include flexColumnCenter;
+            min-height: 150px;
+            max-height: 150px;
+
+            .ncSave, .ncMultiBuy, .ncFreebie{
+                @include futuraPTDemi;
+                background-color: #fe0a30;
+                color: #fff;
+                font-size: 1rem;
+                text-align: center;
+                padding: 5px;
+                margin-bottom: 1rem;
+                text-transform: uppercase;
+            }
+
+            .ncWas{
+                @include futuraPTBook;
+                font-size: 1rem;
+                text-decoration: line-through;
+            }
+            .ncEx{
+                @include futuraPTHeavy;
+                font-size: 1.5rem;
+            }
+            .ncInc{
+                @include futuraPTBook;
+                font-size: 1rem;
+            }
+        }
+
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            min-height: 450px;
+            max-height: 450px;
+          }
+    }
+}

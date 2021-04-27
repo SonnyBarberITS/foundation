@@ -1,0 +1,623 @@
+// Bosch Brand Page
+#bosch {
+    background-color: #023a69;
+
+    h1,
+    h2,
+    h3,
+    h5,
+    h6,
+    p,
+    a {
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    h3 {
+        hr {
+            margin-top: 1px;
+        }
+    }
+
+    h5 {
+        font-weight: 500;
+        text-align: center;
+    }
+
+    h6{
+        font-weight: 600;
+    }
+
+    p{
+        font-size: 13px;
+    }
+
+    h2.bosch-image-heading{
+        @include flexCenter;
+
+        img.heading-logo{
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 14rem;
+
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                width: 8rem;
+            }
+        }
+    }
+
+    .responsive-embed{
+        margin: 40px 0;
+    }
+
+    .section {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .cell {
+        margin-bottom: 20px;
+        a{
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .promo-banner {
+        width: 100%;
+        margin: 0 auto;
+
+        .cell {
+            margin: 0;
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .thumbnail {
+        border: none;
+    }
+
+    .callout {
+        background-image: url(https://its-london.s3-eu-west-1.amazonaws.com/themes/BOSCH/header.jpg);
+        background-size: cover;
+        background-position: center;
+        border: none;
+        padding-top: 13rem;
+        padding-bottom: 13rem;
+
+        img {
+            max-width: 320px;
+        }
+
+        .button {
+            background-color: #1e1e1e;
+            text-transform: uppercase;
+
+            &::after {
+                content: "\f35a";
+                font-family: 'Font Awesome\ 5 Free';
+                font-style: normal;
+                font-weight: 400;
+                font-size: .8em;
+                line-height: 1;
+                color: #fff;
+                margin-left: 10px;
+            }
+
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                font-size: 1rem;
+            }
+        }
+
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
+    }
+
+    .bosch-acc-header{
+        background: url('https://its-london.s3-eu-west-1.amazonaws.com/themes/BOSCH/bosch-accessories.jpg');
+        background-size: cover;
+        background-position: center;
+
+        .column{
+            background-color: #023a69;
+            padding: 40px 20px;
+            max-width: 45%;
+            margin: 0;
+
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                max-width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img{
+                    max-width: 250px;
+                }
+            }
+
+            .hierarchy-title{
+                text-align: left;
+            }
+        }
+
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+        height: 50vh;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding: 20px;
+        background-position: right;
+        }
+    }
+
+    .warranty-row{
+        margin-bottom: 0;
+
+        >div{
+            align-items: center;
+        }
+
+        h2{
+            text-align: left;
+        }
+    }
+
+    .bosch-region-container{
+        margin: 40px 0;
+    }
+
+
+    .prod-region-small-container{
+        .button{
+            background-color: #023a69;
+            text-transform: uppercase;
+            padding: 8px 0;
+        }
+    }
+}
+
+
+
+.bosch-hierarchy{
+    padding: 40px 0;
+}
+
+// Bosch promotion page
+.boschProHeader {
+    img {}
+}
+
+#boschPro {
+    #intro__spacer {
+        h2 {
+            color: #fff;
+        }
+    }
+
+    .bosch__blue--center {
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            padding: 0;
+        }
+
+        .page__wrapper {
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                flex-direction: row;
+            }
+        }
+    }
+
+    #boschPromoIntro {
+        .boschPromoSteps {
+            display: flex;
+            width: 1200px;
+            max-width: 1200px;
+            margin-bottom: 5rem;
+
+            p {
+                min-height: auto;
+
+                @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                    margin-bottom: 0;
+                }
+            }
+
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                flex-direction: column;
+                width: 100%;
+            }
+        }
+    }
+
+    .bosch__pr--smallPromo {
+        background: none;
+        padding: 0;
+
+        .PR_Prod_Item_Small {
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                width: 47%;
+            }
+        }
+
+        .PR_Small_Freebie {
+            color: red;
+            text-align: center;
+            font-size: 10px;
+        }
+    }
+}
+
+#hero__fw.boschPro__fw {
+
+
+    .hero__text--box {
+        p {
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+
+
+
+// Bosch Accessories page
+
+#bosch.bosch-accessories{
+
+    .bosch-acc-range{
+        background-image: url('https://its-london.s3-eu-west-1.amazonaws.com/themes/BOSCH/x-lock-range-background.jpg');
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    .x-lock-callout{
+        background: none;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+
+        .callout-inner{
+            background-color: #023a69;
+            position: relative;
+            
+            h2{
+                text-align: left;
+                padding: 20px 20px 50px 20px;
+                margin-bottom: 20px;
+                font-size: 50px;
+            };
+
+            span{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                background-color: #E20014;
+                color: #fff;
+                text-align: right;
+                @include flexEnd;
+                padding: 10px 5px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .x-lock-container{
+        padding: 3rem 0;
+    }
+
+    .responsive-embed{
+        margin: 20px 0;
+    }
+
+    .button{
+        background-color: #012C4E;
+        border-radius: 20px;
+        text-transform: uppercase;
+        font-size: 2rem;
+        font-weight: 900;
+
+    }
+
+
+
+    // carbide technology
+    .carbide-container{
+        background-image: linear-gradient(to right, #003b69 , #015692);
+        padding: 2rem 0;
+
+        h2{
+            text-align: left;
+            margin-bottom: 0;
+        }
+
+        span{
+            color: #fff;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .cell{
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-start;
+        }
+
+        ul{
+            li{
+                margin-bottom: 10px;
+                list-style: disc;
+            }
+
+            li, strong{
+                font-size: 1rem;
+                color: #fff;
+            }
+        }
+    }
+
+    .carbide-video{
+        padding: 2rem 0;
+        margin: 0 auto;
+    }
+}
+
+
+#boschXLock{
+    background-color: #fff;
+
+    h2, h3{
+        
+        text-transform: uppercase;
+        color: #003b6a;
+        font-family: 'Open Sans', sans-serif !important;
+        font-weight: 900;
+        
+    }
+
+
+    h5, span, a{
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    p{
+        font-family: 'Lato', sans-serif;  
+    }
+
+    .thumbnail{
+        border: none;
+        box-shadow: none;
+    }
+
+    .xlock-video-header{
+        height: 82vh;
+        position: relative;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+        .x-lock-hero-text{
+            position: absolute;
+            top: 50%;
+            left: 25%;
+            transform: translate(-25%, -50%);
+
+            h2, h5{
+                color: #fff;
+            }
+        }
+
+    }
+
+
+
+    .xlock-usps{}
+    
+    .xlock-advantages{
+        padding: 2rem 0;
+        h2{
+            font-size: 3.5rem;
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                font-size: 1.5rem;
+            }
+        }
+
+       
+
+        .callout{
+            border: none;
+            background-color: #F5F6F6;
+            min-height: 250px;
+
+            h5{
+                font-weight: 900;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+    
+    .xlock-introduction{
+        p{
+            font-size: 20px;
+        }
+
+        h5{
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+
+        .thumbnail{
+            margin-bottom: 0;
+        }
+
+        .medium-order-text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 2rem;
+        }
+    }
+    
+    .xlock-product-regions{
+        padding: 2rem 0;
+        background-color: #004D85;
+
+        h2{
+            color: #fff;
+        }
+
+        .grid-container{
+            margin-bottom: 4rem;
+        }
+
+        .bosch-image-heading{
+            @include flexCenter;
+
+            .heading-logo{
+                width: 13.5rem;
+                margin-right: 1rem;
+
+                @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                    width: 11rem;
+                    margin-bottom: 5px;
+                }
+            }
+
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                flex-direction: column;
+            }
+        }
+
+        .prod-region-item-small{
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                margin-bottom: 20px;
+            }
+        }
+
+        .prod-region-title{
+            margin-bottom: 1rem;
+        }
+
+        .pricing-container{
+            @include flexColumnCenter;
+
+            .product-region-status{
+                span{
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: 700;
+                    font-size: .975rem;
+                    text-transform: uppercase;
+                }
+
+                .web-status-IN-STK{
+                    span{color: #1ca902;}
+                }
+                .web-status-AVAIL-SOON, .web-status-PRE-ORDER{
+                    span{color: orange;}
+                }
+                .web-status-NO-STK{
+                    span{color: red;}
+                }
+            }
+            .product-region-was{
+                span{
+                    text-decoration: line-through;
+                }
+            }
+            .product-region-exVAT{
+                span{
+                    font-weight: 700;
+                    font-size: 1.2rem;
+                }
+            }
+            .product-region-incVAT{}
+        }
+
+        .button{
+            background-color: #003b6a;
+            padding: .5rem 0;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+    }
+    
+    .xlock-demonstration{
+        
+    }
+    
+    .xlock-accessories{
+        padding-top: 4rem;
+
+        p{
+            font-size: 16px;
+        }
+
+        h5{
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+
+        
+        .thumbnail{
+            margin-bottom: 0;
+        }
+        
+        .accessories-fw-img{
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                margin-bottom: 2rem;
+            }
+        }
+
+        .medium-order-text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 2rem;
+        }
+        
+        .x-lock-vid-container{
+            align-items: center;
+        }
+    }
+
+    .shop-all-xlock{
+        background-color: #004D85;
+        padding: 4rem 0;
+
+        .button{
+            background-color: #002948;
+            color: #fff;
+            width: 100%;
+            padding: 2rem 0;
+            margin-bottom: 0;
+            font-size: 2rem;
+            border-radius: 30px;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+    }
+
+
+}
