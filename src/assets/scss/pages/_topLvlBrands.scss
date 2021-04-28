@@ -354,6 +354,56 @@
 
 }
 
+
+.top_lvl_brand_MAFELL{
+    background-color: #dadada;
+
+    h1,
+    h2,
+    h3,
+    h5,
+    h6,
+    p,
+    a {
+        color: #fff;
+        font-family: Arial,sans-serif;
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #252525;
+    }
+
+    a{
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+ 
+    #top_lvl_brand_content {
+
+        p{
+            color: #252525
+        }
+
+        .cell-item {
+            background-color: #005099;
+
+            h5 {
+                color: #fff;
+                font-family: Arial,sans-serif;
+            }
+        }
+    }
+
+}
+
+
+
 .top_lvl_brand_METABO{
     background-color: #224b44;
 
@@ -390,6 +440,49 @@
             h5 {
                 color: #224b44;
                 font-family: Arial,sans-serif;
+            }
+        }
+    }
+
+}
+
+.top_lvl_brand_STIHL{
+    background-color: #f46718;
+
+    h1,
+    h2,
+    h3,
+    h5,
+    h6,
+    p,
+    a {
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    a{
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+ 
+    #top_lvl_brand_content {
+        .cell-item {
+            background-color: #ffffff;
+
+            h5 {
+                color: #f46718;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 800 !important;
             }
         }
     }
