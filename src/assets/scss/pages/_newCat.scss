@@ -27,7 +27,7 @@
     }
 
     .newCatSteps{
-        background-color: #fdec1a; 
+        background-color: #FDE800; 
         padding: 2rem 0;
 
         h2{
@@ -190,6 +190,14 @@
         background-color:#323332;
         .shop-all-button{    background-color: transparent;
             color: #FDCA06;
+            border: 4px solid #fff;
+        }
+    }
+
+    .newCatStorage{
+        background-color:#5694AC;
+        .shop-all-button{    background-color: #fff;
+            color: #5694AC;
             border: 4px solid #fff;
         }
     }
