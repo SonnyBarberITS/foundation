@@ -1,0 +1,61 @@
+#staffBuying{
+    background-color: #fee420;
+    padding: 3rem 0;
+
+    .logo-top{
+        @include flexColumnCenter;
+
+        img{
+            @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                max-width: 170px;
+            }
+        }
+    }
+
+    h2{
+        @include futuraPTExtraBold;
+        text-transform: uppercase;
+        color: #252525;
+        font-size: 4rem;
+
+        @media (min-width: $mobileSmall) and (max-width: $mobile) {
+            font-size: 2.5rem;
+        }
+    }
+    
+    .staff-categories{
+        .cell{
+            a{
+                background-color: #4472C4;
+                padding: 2rem 0;
+                border-radius: 10px;
+                @include flexColumnCenter;
+                margin-bottom: 1.5rem;
+                
+                img{
+                    max-width: 150px;
+                    margin-bottom: 1rem;
+
+                    @media (min-width: $mobileSmall) and (max-width: $mobile) {
+                        max-width: 80px;
+                    }
+                }
+    
+                span{
+                    color: #fff;
+                    @include futuraPTDemi;
+                    font-size: 1.5rem;
+                    text-transform: uppercase;
+                    text-align: center;
+                }
+
+                &:hover{
+                    span{
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+        }
+    }
+}
