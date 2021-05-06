@@ -1,41 +1,103 @@
-@font-face {
-    font-family: helveticaNeueBlk;
-    src: url(https://its-london.s3-eu-west-1.amazonaws.com/fonts/HelveticaNeueLTCom-BlkEx.ttf);
-  }
-
 #milwaukeeRedemption{
-    background-color: #D2172D;
+    background-color: #DB031E;
+
+    .desktopImg, .mobileImg{
+        width: 100%;
+    }
+
+    h1, h2,h3, h4{
+        text-transform: uppercase;
+        font-family: termina,sans-serif;
+font-weight: 900;
+font-style: italic;
+text-align: center;
+    }
+
+    p, a{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .intro{
+        padding: 3rem 0;
+        background-color: #fff;
+        h4,p{
+            color: #DB031E;
+        }
+    }
 
     .callout{
-        background-color: #D2172D;
+        background-color: #DB031E;
+        border: none;
 
-        h1, h2{
+        h2, h3, p, a{
             color: #fff;
         }
 
-        p{
-            color: #fff;
+        a{
+            text-decoration: underline;
+        }
+
+        img{
+            max-width: 200px;
+            width: 100%;
+        }
+
+        .cell{
+            text-align: center;
         }
     }
 
-
-    h1, h2{
-        font-family: termina, sans-serif;
-        font-weight: 900;
-        font-style: oblique;
-        text-transform: uppercase;
-    }
-
-    p, a, li, strong, span{
-        font-family: 'Open Sans', sans-serif;
-    }
-
- 
-    #mil-kit-redeem{
-        padding: 2rem 0;
+    #product-list{
+        padding: 3rem 0;
         background-color: #fff;
+
+        .category-container{
+            margin-bottom: 3rem;
+
+            .cell{
+                margin-bottom: 1rem;
+            }
+        }
+
         h2{
-            color: #D2172D; 
+            color: #DB031E;
         }
     }
-}
+
+    #deal-end-msg{
+        background-color: #231F20;
+padding: 3rem 0;
+
+        h3{
+           color: #fff; 
+        }
+    }
+
+
+    #redemption-video{
+        background-image: url('https://its-london.s3-eu-west-1.amazonaws.com/themes/MILWAUKEEREDEMPTION/video-background.png');
+        background-position: center;
+        background-size: cover;
+        padding: 4rem 0;
+
+        .grid-x{
+            align-items: center;
+        }
+
+        h4, p{
+            text-align: left;
+            color:#FF0000;
+        }
+
+        h4{
+            margin-bottom: 1rem;
+        }
+
+        img{
+            margin-bottom: 2rem;
+        }
+    }
+} 
