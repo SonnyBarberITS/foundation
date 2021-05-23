@@ -1,0 +1,22 @@
+#whatsNew{
+
+    h1, h2{
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    p{
+        font-size: 1.2rem;
+    }
+
+    #hierarchy-intro, #prod-region-container{
+        padding: 2rem 0;
+    }
+
+    #prod-region-container{
+        .cell{
+            margin-bottom: 1rem;
+        }
+    }
+
+}

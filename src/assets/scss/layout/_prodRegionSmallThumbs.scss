@@ -9,10 +9,20 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        position: relative;
 
         img{
             max-width: 150px;
             width: 100%;
+        }
+    }
+
+    .brand-pr-overlay{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        max-width: 40px !important;
+        img{
         }
     }
 

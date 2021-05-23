@@ -631,3 +631,67 @@
 
 
 }
+
+
+#bosch.boschRedemption{
+    background: linear-gradient(90deg,#013b69 0%,#013b69 80%,#005691 100%);
+
+    .grid-container{
+        margin-bottom: 0;
+    }
+
+    .brandIcons{
+        max-width: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    h3{
+        font-weight: 800;
+    }
+
+    .steps{
+        p, a{
+            font-size: 20px;
+        }
+    
+        a{
+            text-decoration: underline;
+        }
+    }
+
+
+    .prod-region-item-small{
+        a{text-decoration: none;} 
+    }
+
+
+    #rewards{
+        background-color: #fff;
+        padding: 2rem 0;
+
+        h2{
+            color: #013B69;
+        }
+
+        .callout{
+            padding:1rem;
+            background: none;
+            background-color: #eaeaea;
+            min-height: 210px;
+            h3, p{
+                color: #013B69;
+            }
+        }
+    }
+
+    .button.shop-all{
+        background-color: #fff;
+        color: #013B69;
+        padding: 1rem 0;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+}
