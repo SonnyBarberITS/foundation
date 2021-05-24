@@ -1,0 +1,86 @@
+#CT1{
+
+    h1, h2, h3, h4{
+        color: #2b4bb2;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    h5{
+        font-weight: 600;
+    }
+
+    p{
+        font-size: 1.2rem;
+    }
+
+    em, li{
+        font-size: 1.2rem;
+        @include futuraPTBook;
+        font-style: italic;
+        margin-bottom: 1rem;
+        display: block;
+    }
+
+    ul{
+        margin-bottom: 1rem !important;
+        li{
+            margin-bottom: 0;
+        }
+    }
+
+
+    #intro, #products{
+        margin: 2rem 0;
+
+        img{
+            max-width: 500px;
+            width: 100%;
+        }
+    }
+
+    #products{
+        .grid-x{
+            align-items: center;
+        }
+
+        .button{
+            background: none;
+            border-radius: 5px;
+            border: 1px solid #2b4bb2;
+            color: #2b4bb2;
+        }
+
+        img{
+            max-width: 350px;
+        }
+    }
+
+    #shop-all{
+        border: none;
+
+        a{
+            text-transform: uppercase;
+            font-weight: 700;
+            border-radius: 5px;
+            background-color: #2b4bb2;
+            color: #fff;
+            font-size: 2rem;
+        }
+    }
+
+    #videos{
+        background: linear-gradient(0.25turn, #2770DA, #003466);
+        padding: 2rem 0;
+
+        h2, h5{
+            color: #fff;
+        }
+
+
+        
+        .cell{
+            margin-bottom: 3rem;
+        }
+    }
+}
