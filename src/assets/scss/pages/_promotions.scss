@@ -1,0 +1,75 @@
+#promotions{
+    background-color: #292929;
+    padding: 2rem 0;
+
+    h1{
+        @include oswaldBold;
+        color: #fee420;
+        text-transform: uppercase;
+        font-size: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    h2{
+        @include montserratHeavy;
+        text-transform: uppercase;
+        margin: 1.5rem 0 .5rem 0;
+        font-size: 1rem;
+
+    }
+
+    .grid-container{
+        .cell{
+            padding: 10px;
+            background-color: #f3f3f3;
+            margin-bottom: 1rem;
+            border: 2px solid #fff;
+
+            h2{}
+            p{
+                @include montserratMedium;
+                font-size: .75rem;
+            }
+
+            .endsSoon{
+                display: none;
+                @include oswaldBold;
+                color: #CD152D;
+                text-transform: uppercase;
+                font-size: 1.5rem;
+                text-align: center;
+            }
+
+            h5{
+                @include montserratHeavy;
+                text-transform: uppercase;
+                font-size: 1rem;
+                margin: 0;
+            }
+
+            .dateHidden{
+                display: none;
+            }
+
+            .ShopBtn{
+                background-color: #1ca902;
+                color: #fff;
+                @include montserratHeavy;
+                padding: .75rem;
+                border-radius: 5px;
+                display: block;
+                float: right;
+                text-align: center;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .dateShopContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
